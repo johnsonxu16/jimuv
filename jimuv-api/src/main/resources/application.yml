@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+video:
+  create:
+    folder: D:\github\jimuv-demo
+knife4j:
+  enable: true
+  openapi:
+    title: jimuv
+    description: "积木视频，创作视频就像拼接积木一样简单！Building-block video, creating videos is as easy as piecing together building blocks!"
+    email: johnsonxu16@gmail.com
+    concat: johnsonxu16
+    url: https://doc.jimuv.com
+    version: v1.0.0
+    license: MIT
+    group:
+      video:
+        group-name: 视频
+        api-rule: package
+        api-rule-resources:
+          - com.jimuv.api.controller
