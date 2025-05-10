@@ -166,7 +166,7 @@ public class FFmpegUtils {
         commandList.add(FFmpegStrUtils.MAP);
         commandList.add(FFmpegStrUtils.MAP_VALUE);
         commandList.add(FFmpegStrUtils.CV);
-        commandList.add(FFmpegStrUtils.LIBX264);
+        commandList.add(FFmpegStrUtils.LIBOPENH264);
         commandList.add(FFmpegStrUtils.R);
         commandList.add(String.valueOf(videoInit.getFrameRate()));
         commandList.add(FFmpegStrUtils.CRF);

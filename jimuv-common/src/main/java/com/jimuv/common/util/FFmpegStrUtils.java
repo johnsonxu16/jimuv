@@ -28,7 +28,10 @@ public class FFmpegStrUtils {
     public static final String AUDIO = "audio";
     public static final String ELEMENT = "element";
 
-    public static final String FFMPEG = "ffmpeg";
+    /**
+     * 通过FFmpegPathUtils获取当前操作系统对应的FFmpeg可执行文件路径
+     */
+    public static final String FFMPEG = FFmpegPathUtils.getFFmpegExecutablePath();
     public static final String I = "-i";
     public static final String Y = "-y";
     public static final String T = "-t";
@@ -42,6 +45,8 @@ public class FFmpegStrUtils {
     public static final String MAP_VALUE = "0:a:0";
     public static final String CV = "-c:v";
     public static final String LIBX264 = "libx264";
+    public static final String LIBX265 = "libx265";
+    public static final String LIBOPENH264 = "libopenh264";
     public static final String R = "-r";
     public static final String CRF = "-crf";
     public static final String CA = "-c:a";

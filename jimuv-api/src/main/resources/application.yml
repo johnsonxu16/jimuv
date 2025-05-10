@@ -4,7 +4,7 @@ server:
     context-path: /
 video:
   create:
-    folder: D:\github\jimuv-demo
+    folder: ${user.home}/jimuv-demo
 knife4j:
   enable: true
   openapi:
