@@ -8,8 +8,8 @@ video:
 knife4j:
   enable: true
   openapi:
-    title: jimuv
-    description: "积木视频，创作视频就像拼接积木一样简单！Building-block video, creating videos is as easy as piecing together building blocks!"
+    title: jimuv - 积木视频
+    description: "创作视频就像拼接积木一样简单！Creating videos is as easy as piecing together building blocks!"
     email: johnsonxu16@gmail.com
     concat: johnsonxu16
     url: https://doc.jimuv.com
